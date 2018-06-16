@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="LampStore"></dbname>
+
+    <version value="1"></version>
+
+    <list>
+        <mapping class="com.xny.lamp.db.LampRealData"/>
+        <mapping class="com.xny.lamp.db.LampArea"/>
+        <mapping class="com.xny.lamp.db.Lamp"/>
+        <mapping class="com.xny.lamp.db.LampConcentrator"/>
+        <mapping class="com.xny.lamp.db.LampPara"/>
+        <mapping class="com.xny.lamp.db.HistoryData"/>
+        <mapping class="com.xny.lamp.db.OperationRecord"/>
+        <mapping class="com.xny.lamp.db.AmapCity"/>
+    </list>
+</litepal>
